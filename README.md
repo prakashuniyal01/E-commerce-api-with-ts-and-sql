@@ -28,7 +28,7 @@ A REST and GraphQl ecommerce Api using NodeJs , TypeScript , express.js and MySq
     |/admin/delete-product/{productId}|DELETE|productId as parameter | success or fail deletion |YES|
 
 
-* GraphQL [The Schema](https://github.com/AhmedKhames/E-Commerce-Api/blob/master/schema.gql)
+* GraphQL [The Schema](https://github.com/prakashuniyal01/E-commerce-api-with-ts-and-sql/blob/master/schema.gql)
 1. Mutations
 
 | Function    | Usage | 
