@@ -1,0 +1,45 @@
+{
+  "name": "triveous",
+  "version": "1.0.0",
+  "description": "A REST and GraphQl ecommerce Api using NodeJs , TypeScript , express.js and MySql database with sequelize ORM with Stripe Api for payment method",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --files src/app.ts",
+    "dev": "nodemon --files src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/node": "^20.11.20",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/multer": "^1.4.11",
+    "@types/sequelize": "^4.28.20",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "class-validator": "^0.14.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "express-validator": "^7.0.1",
+    "graphql": "^15.8.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.9.1",
+    "reflect-metadata": "^0.2.1",
+    "sequelize": "^6.37.1",
+    "sequelize-typescript": "^2.1.6",
+    "stripe": "^14.18.0",
+    "type-graphql": "^1.1.1",
+    "uuid": "^9.0.1"
+  }
+}
